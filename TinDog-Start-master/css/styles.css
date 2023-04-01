@@ -1,0 +1,265 @@
+body
+{
+    font-family: 'Montserrat';
+}
+
+
+#title
+{
+    background-color: #ff4c68;
+    color: #ffff;
+}
+
+
+.first-heading
+{
+    font-family: 'Montserrat-Black';
+    font-weight:bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+
+
+h3
+{
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder ;
+}
+
+.container-fluid
+{
+    padding: 3% 15%;
+}
+
+.navbar
+{
+    padding-bottom: 4.5rem;
+}
+
+
+
+.navbar-brand
+{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bolder;
+
+    
+}
+
+
+
+.navbar-nav 
+{
+    position: relative;
+    left: 31.25rem;
+}
+
+
+.nav-item
+{
+    padding: 0 18px;
+}
+
+
+.title-img
+{
+    width: 60%;
+    transform: rotate(25deg);
+}
+
+
+#features
+{
+    padding: 7% 15%;
+}
+
+
+.feature-box
+{
+    text-align: center;
+    padding: 5%;
+}
+
+
+p
+{
+    color: #8f8f8f;
+}
+
+
+.feature-pic
+{
+   padding-bottom: 20px;
+   color: #ef8172;
+}
+
+
+
+.feature-pic:hover
+{
+    color: #ff4c68;
+}
+
+
+#testimonials
+{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8172;
+}
+
+
+h2
+{
+    font-family: 'Montserrat-Bold';
+    font-weight: bolder ;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #ffff;
+}
+
+
+.testimonial-pic
+{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+
+#press
+{
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+
+.press-logo
+{
+    width: 15%;
+    margin: 20px 20px;
+}
+
+
+
+.card-detail
+{
+    color: black;
+}
+
+
+.plan-statement
+{
+    color: black;
+}
+
+
+.plan-statement2
+{
+    color: black;
+}
+
+ .card
+{
+    margin: 0 20px 0 20px;
+    
+   
+}
+.card-header
+{
+    margin : 0;
+}
+
+
+/* Pricing Section */
+
+#pricing
+{
+    padding-left: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
+.pricing-info
+{
+    text-align: center;
+}
+
+.plan-statement
+{
+    text-align: center;
+
+}
+
+.plan-statement2
+{
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+/* media Query */
+
+@media(max-width:1028px)
+{
+    #title
+    {
+        text-align: center;
+    }
+    .title-img
+    {
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+
+/* FOOTER */
+
+.footer1
+{
+    background-color: #ff4c68;
+}
+
+.footer-pic
+{
+    padding-top: 90px;
+    text-align: center;
+    
+}
+ .copyright
+ {
+    text-align: center;
+ }
+
+ .footer-intro
+ {
+    
+    font-family: 'Montserrat-Black';
+    font-weight:bolder;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+ }
+
+ #cta
+ {
+    text-align: center;
+    background-color: #ff4c68;
+    padding: 7% 15%;
+    
+ }
+
+ .download-btn
+ {
+    margin-left: 20px;
+ }
+
+ .social-icon
+ {
+    margin: 20px 10px;
+    
+ }
